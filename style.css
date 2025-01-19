@@ -1,16 +1,17 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:'Roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 header{
-    font-family:'Roboto' 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     background-color: #1F2937;
     display:flex;
     justify-content: space-around;
     font-size: 24px;
     color:#f9faf8;
     font-weight: bold;
-    padding: 10px;
+    padding: 15px;
+    gap: 226px;
 }
 
 ul{
@@ -19,8 +20,37 @@ ul{
     gap:30px;
 }
 
+
 a{
+    font-weight: normal;
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
+}
+
+.hero{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    padding:20px;
+    gap: 30px;
+}
+
+.hero-main-text{
+    width:400px;
+    font-weight: 900;
+    color: #f9faf8;
+    font-size: 48px;
+}
+
+.hero-main-text .hero-second-text{
+    font-size: 18px;
+    color:#e5e7eb;
+    font-weight: normal;
+}
+
+.img{
+    height: 230px;
+    width: 400px;
+    background-color: grey;
 }
