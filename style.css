@@ -59,7 +59,9 @@ a{
     align-items: center;
     height: 230px;
     width: 550px;
-    background-color: grey;
+    color: #f9faf8;
+
+    background-color: #657183;
 }
 
 button{
